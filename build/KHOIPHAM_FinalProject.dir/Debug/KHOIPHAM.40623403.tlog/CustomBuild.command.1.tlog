@@ -1,0 +1,10 @@
+^D:\WWW\2023 01 SPRING\IT356 001\MINE\FINALPROJECT\SRC\CMAKELISTS.TXT
+setlocal
+D:\Cmake\bin\cmake.exe "-SD:/WWW/2023 01 Spring/IT356 001/mine/finalproject/src" "-BD:/WWW/2023 01 Spring/IT356 001/mine/finalproject/build" --check-stamp-file "D:/WWW/2023 01 Spring/IT356 001/mine/finalproject/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

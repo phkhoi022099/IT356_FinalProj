@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\WWW\2023 01 Spring\IT356 001\mine\finalproject\src\source\final_project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\WWW\2023 01 Spring\IT356 001\mine\finalproject\src\include\mat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WWW\2023 01 Spring\IT356 001\mine\finalproject\src\include\vec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WWW\2023 01 Spring\IT356 001\mine\finalproject\src\include\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WWW\2023 01 Spring\IT356 001\mine\finalproject\src\include\shader_m.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WWW\2023 01 Spring\IT356 001\mine\finalproject\src\include\shader_s.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WWW\2023 01 Spring\IT356 001\mine\finalproject\src\include\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WWW\2023 01 Spring\IT356 001\mine\finalproject\src\include\filesystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WWW\2023 01 Spring\IT356 001\mine\finalproject\src\include\model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WWW\2023 01 Spring\IT356 001\mine\finalproject\src\include\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\WWW\2023 01 Spring\IT356 001\mine\finalproject\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\WWW\2023 01 Spring\IT356 001\mine\finalproject\src\shader\gamma_correction.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="D:\WWW\2023 01 Spring\IT356 001\mine\finalproject\src\shader\gamma_correction.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="D:\WWW\2023 01 Spring\IT356 001\mine\finalproject\src\shader\skybox.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="D:\WWW\2023 01 Spring\IT356 001\mine\finalproject\src\shader\skybox.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="D:\WWW\2023 01 Spring\IT356 001\mine\finalproject\src\shader\model_loading.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="D:\WWW\2023 01 Spring\IT356 001\mine\finalproject\src\shader\model_loading.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B9C30D08-C17F-3408-82A4-783CA91B3100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{BA54A8EF-D2A9-384D-9EFA-BB99EDC2B800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D06E2885-3492-3869-987D-4FE1056B19F3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
